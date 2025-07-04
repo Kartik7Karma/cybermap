@@ -1,0 +1,22 @@
+# Ignore Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output logs or test artifacts
+*.log
+
+# Ignore banner scan/test output files
+output.txt
+banner_output.txt
+
+# Optional: exclude environment/config files if you ever use them
+.env
+config.json
