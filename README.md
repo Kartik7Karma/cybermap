@@ -38,15 +38,15 @@ This project demonstrates foundational cybersecurity skills like footprinting, e
 🖥️ How to Use
 
 1. Port Scanner
-bash--> python3 port_scanner.py --target scanme.nmap.org --ports 20-100 --timeout 1
+bash--> python3 port_scanner.py --target scanme.nmap.org --ports 20-100 --timedout 1
 
 2. Banner Grabber
-bash--> python3 banner_grab.py --ip scanme.nmap.org --port 22 --timeout 1
+bash--> python3 banner_grab.py --ip scanme.nmap.org --port 22 --timedout 1
 
 3. Combined Main Script
-bash-->python3 mainfile.py --target scanme.nmap.org --ports 20-100 --timeout 1
+bash-->python3 mainfile.py --target scanme.nmap.org --ports 20-100 --timedout 1
 
-scanme.nmap.org is a public test server provided by Nmap. Replace with your own host if required.
+scanme.nmap.org is a public test server provided by Nmap.
 
 --------
 
